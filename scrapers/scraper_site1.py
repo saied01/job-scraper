@@ -117,6 +117,6 @@ def scrape_site1():
             writer.writeheader()
             writer.writerows(jobs_data)
 
-        print(f"✅ datos guardados en {csv_path}")
+        print(f"datos guardados en {csv_path}")
     else:
-        print("⚠️ No se encontraron trabajos.")
+        print("No se encontraron trabajos.")
